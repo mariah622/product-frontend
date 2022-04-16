@@ -10,7 +10,6 @@ function App(){
     <div className="App">
       <Navbar setPage={setPage}/>
       <Pages page={page}/>
-        {/* <h1 className='welcome-header'>Welcome to the Supermart!</h1> */}
     </div>
   )
 

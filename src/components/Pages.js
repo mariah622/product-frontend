@@ -20,6 +20,4 @@ export default function Pages({page}){
 
     return <div>{renderPage()}</div>
  
-    
-    
 }

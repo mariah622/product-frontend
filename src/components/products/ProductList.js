@@ -1,7 +1,9 @@
 import React from 'react'
+import ProductCard from './ProductCard'
 
-export default function ProductList(){
-    return <div>
+export default function ProductList({products}){
+    return <ul>
+        {products.map(p => <ProductCard {...p}/>)}
 
-    </div>
+    </ul>
 } 
