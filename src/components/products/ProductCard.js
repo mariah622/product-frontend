@@ -1,14 +1,16 @@
 import React from 'react'
 
 export default function ProductCard(props){
-     console.log(props)
-     return (
-         <div>
-             <h1>
-                 {props.name}
+    console.log(props)
+    
+    return (
+    <div>
+        <li>
+            {props.name}
+        </li>
 
-             </h1>
-
-         </div>
-     )
+    </div>
+    
+    
+    )
 }
